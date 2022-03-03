@@ -38,7 +38,8 @@ body > p {
 
 address{
 	font-style: normal;
-	font-size: 9em;
+	font-size: 0.9em;
+	
 }
 
 /* Navigation Styles */
@@ -50,19 +51,19 @@ address{
 
 @font-face {
 	font-family: Champagne;
-	src: url(cac_champagne.woff) format('woff');
-	url(cac_champagne.ttf) format('ttf')
+	src: url(cac_champagne.woff) format('woff'),
+	url(cac_champagne.ttf) format('ttf');
 }
 
 @font-face{
 	font-family: Grunge;
-	src: url(1942.woff) format('woff');
+	src: url(1942.woff) format('woff'),
 	url(1942.ttf) format('ttf');
 }
 
 @font-face {
 	font-family: Dobkin;;
-	src: url(DobkinPlain.woff) format('woff');
+	src: url(DobkinPlain.woff) format('woff'),
 	url(DobkinPlain.ttf) format('ttf');
 }
 
