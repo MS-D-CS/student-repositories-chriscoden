@@ -43,13 +43,23 @@ nav.horizontalNavigation li {
 
 /* Left Column Styles */
 
-
+section#leftColum{
+   clear: left;
+   float: left;
+   width: 33%;
+}
 
 
 /* Right Column Styles */
 
+section#rightColum{
+   float: left;
+   width: 67%;
+}
 
-
+section#rightColumn > nav.horizontalNavigation li {
+   width: 25%
+}
 
 
 /* Footer Styles */
