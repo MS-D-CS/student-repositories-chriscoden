@@ -13,7 +13,7 @@
 */
 @font-face{
    font-family: Quicksand;
-   scr: url('Quicksand-Regular.woff') format('woff'),
+   src: url('Quicksand-Regular.woff') format('woff'),
    url('Quicksand-Regular.ttf') format('truetype');
 }
 
@@ -23,13 +23,13 @@ h1, h2{
 }
 /* HTML and Body Styles */
 html{
-   backround-color:hsl(27, 72%, 72%);
+   background-color:hsl(27, 72%, 72%);
 }
 
 body{
    color: rgb(91, 91, 91);
-   backround-color: ivory;
-   font-family: Verdana, Geneva, sans-serif
+   background-color: ivory;
+   font-family: Verdana, Geneva, sans-serif;
 }
 
 
@@ -39,12 +39,12 @@ body{
 /* Heading Styles */
 article#about_tss h1{
    color: white;
-   backround-color: rgb(222, 128, 60);
+   background-color: rgb(222, 128, 60);
 }
 
 article#about_tss h2{
    color: white;
-   backound-color: rgb(235, 177, 131)
+   background-color: rgb(235, 177, 131);
 }
 
 h1{
@@ -70,9 +70,9 @@ aside{
 }
 
 aside blockquote {
-   color: rgb(232, 165, 116)
+   color: rgb(232, 165, 116);
    margin: 20px 5px;
-   quotes: "\201C" "\201D"
+   quotes: "\201C" "\201D";
 }
 
 aside blockquote::before {
@@ -107,7 +107,7 @@ nav{
 }
 
 nav > ul {
-   line-hight: 2em;
+   line-height: 2em;
    list-style-type: none;
    padding-left: 5px;
 }
@@ -118,15 +118,15 @@ nav > ul > li.newgroup {
 
 /* List Styles */
 
-article#about_tss ul li:first=of-type {
+article#about_tss ul li:first-of-type {
    list-style-image: url(runicon.png);
 }
 
-article#about_tss ul li:first=of-type {
+article#about_tss ul li:first-of-type {
    list-style-image: url(bikeicon.png);
 }
 
-article#about_tss ul li:first=of-type {
+article#about_tss ul li:first-of-type {
    list-style-image: url(swimicon.png);
 }
 
@@ -151,7 +151,7 @@ article.syllbus ol ol ol {
 /* Footer Styles */
 
 body > footer address {
-   backround-color: rgb(222,128,60);
+   background-color: rgb(222,128,60);
    color: white;
    color: rgba(255, 255, 255, 0.7);
    font: normal small-caps bold 0.9em/3em Quicksand, Verdana, Geneva, sans-serif;
